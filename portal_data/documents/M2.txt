@@ -1,0 +1,12 @@
+合成业务文书
+SN06换入库存件
+资料编号：M2
+
+device："SN06"
+old："PSA0201"
+new："PSA0105"
+date："2026-11-03"
+completed：true
+receipt："OK-2"
+
+本文件为本地业务资料副本，效力依业务规程认定。

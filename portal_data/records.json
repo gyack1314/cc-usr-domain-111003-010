@@ -1,0 +1,161 @@
+[
+  {
+    "id": "R0",
+    "category": "通告",
+    "title": "旧召回",
+    "revision": 1,
+    "fields": {
+      "prefix": "PSA",
+      "lo": 100,
+      "hi": 180,
+      "inclusive": true,
+      "issued": "2026-10-20"
+    }
+  },
+  {
+    "id": "R1",
+    "category": "通告",
+    "title": "当前召回",
+    "revision": 1,
+    "fields": {
+      "replaces": "R0",
+      "prefix": "PSA",
+      "lo": 100,
+      "hi": 200,
+      "inclusive": true,
+      "excluded": [
+        150
+      ],
+      "effective": "2026-11-01"
+    }
+  },
+  {
+    "id": "N0",
+    "category": "撤回",
+    "title": "旧通告撤回",
+    "revision": 1,
+    "fields": {
+      "target": "R0",
+      "replacement": "R1"
+    }
+  },
+  {
+    "id": "M1",
+    "category": "维修",
+    "title": "SN01换件完成",
+    "revision": 1,
+    "fields": {
+      "device": "SN01",
+      "old": "PSA0100",
+      "new": "PSC0001",
+      "date": "2026-11-02",
+      "completed": true,
+      "receipt": "OK-1"
+    }
+  },
+  {
+    "id": "M2",
+    "category": "维修",
+    "title": "SN06换入库存件",
+    "revision": 1,
+    "fields": {
+      "device": "SN06",
+      "old": "PSA0201",
+      "new": "PSA0105",
+      "date": "2026-11-03",
+      "completed": true,
+      "receipt": "OK-2"
+    }
+  },
+  {
+    "id": "M3",
+    "category": "维修",
+    "title": "SN02换件申请",
+    "revision": 1,
+    "fields": {
+      "device": "SN02",
+      "old": "PSA0101",
+      "new": "PSC0002",
+      "date": "2026-11-04",
+      "completed": false,
+      "receipt": null
+    }
+  },
+  {
+    "id": "M4",
+    "category": "维修",
+    "title": "SN08换件未附签收",
+    "revision": 1,
+    "fields": {
+      "device": "SN08",
+      "old": "PSA0151",
+      "new": "PSC0008",
+      "date": "2026-11-05",
+      "completed": true,
+      "receipt": null
+    }
+  },
+  {
+    "id": "M5",
+    "category": "维修",
+    "title": "SN03冻结后维修",
+    "revision": 1,
+    "fields": {
+      "device": "SN03",
+      "old": "PSA0200",
+      "new": "PSC0003",
+      "date": "2026-11-11",
+      "completed": true,
+      "receipt": "OK-5"
+    }
+  },
+  {
+    "id": "H1",
+    "category": "持有",
+    "title": "SN05转至西经销",
+    "revision": 1,
+    "fields": {
+      "device": "SN05",
+      "from_dealer": "D东",
+      "to_dealer": "D西",
+      "effective": "2026-11-08",
+      "confirmed": true
+    }
+  },
+  {
+    "id": "H2",
+    "category": "持有",
+    "title": "SN08转至东经销",
+    "revision": 1,
+    "fields": {
+      "device": "SN08",
+      "from_dealer": "D西",
+      "to_dealer": "D东",
+      "effective": "2026-11-09",
+      "confirmed": true
+    }
+  },
+  {
+    "id": "H3",
+    "category": "持有",
+    "title": "SN08转至另一经销",
+    "revision": 1,
+    "fields": {
+      "device": "SN08",
+      "from_dealer": "D西",
+      "to_dealer": "D北",
+      "effective": "2026-11-09",
+      "confirmed": true
+    }
+  },
+  {
+    "id": "EX",
+    "category": "排除",
+    "title": "PSA0150排除说明",
+    "revision": 1,
+    "fields": {
+      "component": "PSA0150",
+      "reason": "认证替代材料，不在受影响集合"
+    }
+  }
+]
