@@ -1,0 +1,23 @@
+{
+  "by_category": {
+    "excluded_with_basis": [
+      "SN01",
+      "SN07"
+    ],
+    "manual_review": [
+      "SN08"
+    ],
+    "needs_recall": [
+      "SN02",
+      "SN03",
+      "SN06"
+    ],
+    "not_affected": [
+      "SN04",
+      "SN05"
+    ]
+  },
+  "freeze": "2026-11-10T12:00:00+08:00",
+  "notice": "R1@10abba489874685be1a04c7325d5a388088f3966d7b271bd6f8a0dd2401f0c89",
+  "source_index_sha256": "608f2eabc01af1da8cae097c8bd86bf17e719dbf36fdb7224b77963a40241105"
+}

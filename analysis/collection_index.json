@@ -1,0 +1,145 @@
+{
+  "catalog_pages": [
+    {
+      "count_text": "共 12 份资料",
+      "ids": [
+        "R0",
+        "R1",
+        "N0",
+        "M1",
+        "M2"
+      ],
+      "page": 1
+    },
+    {
+      "count_text": "共 12 份资料",
+      "ids": [
+        "M3",
+        "M4",
+        "M5",
+        "H1",
+        "H2"
+      ],
+      "page": 2
+    },
+    {
+      "count_text": "共 12 份资料",
+      "ids": [
+        "H3",
+        "EX"
+      ],
+      "page": 3
+    }
+  ],
+  "portal": "http://127.0.0.1:8765",
+  "records": {
+    "EX": {
+      "attachment_sha256": "16841bdfc64347705e127e1eb48ca5af801a9d11c95e4f8d4b2778552c104722",
+      "category": "排除",
+      "document_file": "EX.txt",
+      "document_sha256": "33bf02276dfc64145351eaad0f0ae5b4c81009ae485f1a204259654ba8e8b975",
+      "reference": "EX@16841bdfc64347705e127e1eb48ca5af801a9d11c95e4f8d4b2778552c104722",
+      "revision": 1,
+      "title": "PSA0150排除说明"
+    },
+    "H1": {
+      "attachment_sha256": "80075262542363549482b1d0b7cf61f2bb7d5df62fb1aa0be87e1c68ae19d2c6",
+      "category": "持有",
+      "document_file": "H1.txt",
+      "document_sha256": "f9b53a152db02aaedd1e078aa2c4253965524b28d3509743ce85443e50dcdd6d",
+      "reference": "H1@80075262542363549482b1d0b7cf61f2bb7d5df62fb1aa0be87e1c68ae19d2c6",
+      "revision": 1,
+      "title": "SN05转至西经销"
+    },
+    "H2": {
+      "attachment_sha256": "8b3240c8fccc22f4e6a1b1f1e58415820660b03a33e5efee46cf9889ba3cc8c8",
+      "category": "持有",
+      "document_file": "H2.txt",
+      "document_sha256": "aeb058a00a8615ba190049b014404e52aea9cb89aeb4934c5e5da0730923fe65",
+      "reference": "H2@8b3240c8fccc22f4e6a1b1f1e58415820660b03a33e5efee46cf9889ba3cc8c8",
+      "revision": 1,
+      "title": "SN08转至东经销"
+    },
+    "H3": {
+      "attachment_sha256": "4945477f5c58e6e70134b8f1abf0f40c093004f964b856876be9ee601b2982c7",
+      "category": "持有",
+      "document_file": "H3.txt",
+      "document_sha256": "d95c89b564e5279d73bab783f34770304002373c06c338b2bf9544ddaf1333a8",
+      "reference": "H3@4945477f5c58e6e70134b8f1abf0f40c093004f964b856876be9ee601b2982c7",
+      "revision": 1,
+      "title": "SN08转至另一经销"
+    },
+    "M1": {
+      "attachment_sha256": "c5c233e1f6809b932e76822323c621548318df921c21b3c7034db1917c357dbc",
+      "category": "维修",
+      "document_file": "M1.txt",
+      "document_sha256": "fe37ba5531d2492c65d23e674266310819d71bbcf819b3a8463072c904014a93",
+      "reference": "M1@c5c233e1f6809b932e76822323c621548318df921c21b3c7034db1917c357dbc",
+      "revision": 1,
+      "title": "SN01换件完成"
+    },
+    "M2": {
+      "attachment_sha256": "25d4f0749df38a08fe63e08896fe066f20828f9876f16f87ea78fa6d8729db98",
+      "category": "维修",
+      "document_file": "M2.txt",
+      "document_sha256": "6003e1f53fcdfc601484cf18d82b3a2e488bb5cf26d7851ca08dd8349eeb283f",
+      "reference": "M2@25d4f0749df38a08fe63e08896fe066f20828f9876f16f87ea78fa6d8729db98",
+      "revision": 1,
+      "title": "SN06换入库存件"
+    },
+    "M3": {
+      "attachment_sha256": "4c1234a8ebb93744b9f2064edad197cbb7af0d23bf246118b8bd220e7557aeb4",
+      "category": "维修",
+      "document_file": "M3.txt",
+      "document_sha256": "cd59a986c33cf3881110edbd579519c72a82bda1261fe4b995a403c250c5f367",
+      "reference": "M3@4c1234a8ebb93744b9f2064edad197cbb7af0d23bf246118b8bd220e7557aeb4",
+      "revision": 1,
+      "title": "SN02换件申请"
+    },
+    "M4": {
+      "attachment_sha256": "d6d0faa39dfc0a161635f3f03b35e5fd54aba666fcaebdb937e2a0f7fffd31d3",
+      "category": "维修",
+      "document_file": "M4.txt",
+      "document_sha256": "eac052aff3f60d0cf07efa25bb608e892aaa136f611841e9e7458a83bb1004a4",
+      "reference": "M4@d6d0faa39dfc0a161635f3f03b35e5fd54aba666fcaebdb937e2a0f7fffd31d3",
+      "revision": 1,
+      "title": "SN08换件未附签收"
+    },
+    "M5": {
+      "attachment_sha256": "b1d12a0f8e63aded503de930ef2fde4a14cc552b1077ea71f0992e1aa56c72bd",
+      "category": "维修",
+      "document_file": "M5.txt",
+      "document_sha256": "ccceaa2f7f7b7d3e39afc495b9176352060825cc8b1ddd764ae8dac02c58ff16",
+      "reference": "M5@b1d12a0f8e63aded503de930ef2fde4a14cc552b1077ea71f0992e1aa56c72bd",
+      "revision": 1,
+      "title": "SN03冻结后维修"
+    },
+    "N0": {
+      "attachment_sha256": "418ae0e40c47750f29a53e1aabf75b244182e5de718e4ed45135eb190a8e452c",
+      "category": "撤回",
+      "document_file": "N0.txt",
+      "document_sha256": "6e48abdd2de4a2ea197268744f625014bfd0f18608f762ab4e0f38e810fea3f0",
+      "reference": "N0@418ae0e40c47750f29a53e1aabf75b244182e5de718e4ed45135eb190a8e452c",
+      "revision": 1,
+      "title": "旧通告撤回"
+    },
+    "R0": {
+      "attachment_sha256": "4204ae95ba7dab6350c253ea582677d3d9bdedd627ab9e99a294f8597bdb62b4",
+      "category": "通告",
+      "document_file": "R0.txt",
+      "document_sha256": "410cb9609d8eafea4535d2f31adc851988799f91cf5bb3e09d0dca058788b351",
+      "reference": "R0@4204ae95ba7dab6350c253ea582677d3d9bdedd627ab9e99a294f8597bdb62b4",
+      "revision": 1,
+      "title": "旧召回"
+    },
+    "R1": {
+      "attachment_sha256": "10abba489874685be1a04c7325d5a388088f3966d7b271bd6f8a0dd2401f0c89",
+      "category": "通告",
+      "document_file": "R1.txt",
+      "document_sha256": "cb08c4d7f67f86d149cbe9c0c233717ee94c962b678d928eab06d512b05b90d4",
+      "reference": "R1@10abba489874685be1a04c7325d5a388088f3966d7b271bd6f8a0dd2401f0c89",
+      "revision": 1,
+      "title": "当前召回"
+    }
+  }
+}

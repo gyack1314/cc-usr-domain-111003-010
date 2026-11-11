@@ -1,0 +1,53 @@
+{
+  "basis_refs": [
+    "M1@c5c233e1f6809b932e76822323c621548318df921c21b3c7034db1917c357dbc"
+  ],
+  "classification": "excluded_with_basis",
+  "device": "SN01",
+  "events_at_or_before_freeze": [
+    {
+      "applied": true,
+      "date": "2026-11-02",
+      "kind": "维修",
+      "ref": "M1@c5c233e1f6809b932e76822323c621548318df921c21b3c7034db1917c357dbc"
+    }
+  ],
+  "factory_ps": "PSA0100",
+  "freeze": "2026-11-10T12:00:00+08:00",
+  "installed_at_freeze": "PSC0001",
+  "open_issues": [],
+  "ownership_at_freeze": {
+    "dealer": "D东",
+    "status": "登记持有"
+  },
+  "post_freeze_records": [],
+  "registration": {
+    "contact": "合成联系人甲",
+    "dealer": "D东",
+    "factory_ps": "PSA0100",
+    "source": "materials/devices.csv"
+  },
+  "repairs": {
+    "applied": [
+      "M1@c5c233e1f6809b932e76822323c621548318df921c21b3c7034db1917c357dbc"
+    ],
+    "claimed_but_no_receipt": [],
+    "not_completed": []
+  },
+  "scope": {
+    "clause_excluded": false,
+    "exclusion_record": null,
+    "in_scope": false,
+    "notice": "R1@10abba489874685be1a04c7325d5a388088f3966d7b271bd6f8a0dd2401f0c89",
+    "range_hit": false,
+    "scope_text": {
+      "excluded": [
+        150
+      ],
+      "hi": 200,
+      "inclusive": true,
+      "lo": 100,
+      "prefix": "PSA"
+    }
+  }
+}

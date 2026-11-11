@@ -1,0 +1,10 @@
+{
+  "category": "排除",
+  "fields": {
+    "component": "PSA0150",
+    "reason": "认证替代材料，不在受影响集合"
+  },
+  "id": "EX",
+  "revision": 1,
+  "title": "PSA0150排除说明"
+}

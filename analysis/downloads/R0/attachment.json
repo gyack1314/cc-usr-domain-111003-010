@@ -1,0 +1,13 @@
+{
+  "category": "通告",
+  "fields": {
+    "hi": 180,
+    "inclusive": true,
+    "issued": "2026-10-20",
+    "lo": 100,
+    "prefix": "PSA"
+  },
+  "id": "R0",
+  "revision": 1,
+  "title": "旧召回"
+}

@@ -1,0 +1,13 @@
+{
+  "category": "持有",
+  "fields": {
+    "confirmed": true,
+    "device": "SN08",
+    "effective": "2026-11-09",
+    "from_dealer": "D西",
+    "to_dealer": "D东"
+  },
+  "id": "H2",
+  "revision": 1,
+  "title": "SN08转至东经销"
+}

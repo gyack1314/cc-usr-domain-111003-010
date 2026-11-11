@@ -1,0 +1,14 @@
+{
+  "category": "维修",
+  "fields": {
+    "completed": true,
+    "date": "2026-11-02",
+    "device": "SN01",
+    "new": "PSC0001",
+    "old": "PSA0100",
+    "receipt": "OK-1"
+  },
+  "id": "M1",
+  "revision": 1,
+  "title": "SN01换件完成"
+}

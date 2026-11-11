@@ -1,0 +1,11 @@
+合成业务文书
+SN08转至东经销
+资料编号：H2
+
+device："SN08"
+from_dealer："D西"
+to_dealer："D东"
+effective："2026-11-09"
+confirmed：true
+
+本文件为本地业务资料副本，效力依业务规程认定。

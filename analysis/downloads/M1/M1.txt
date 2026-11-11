@@ -1,0 +1,12 @@
+合成业务文书
+SN01换件完成
+资料编号：M1
+
+device："SN01"
+old："PSA0100"
+new："PSC0001"
+date："2026-11-02"
+completed：true
+receipt："OK-1"
+
+本文件为本地业务资料副本，效力依业务规程认定。

@@ -1,0 +1,12 @@
+合成业务文书
+SN08换件未附签收
+资料编号：M4
+
+device："SN08"
+old："PSA0151"
+new："PSC0008"
+date："2026-11-05"
+completed：true
+receipt：null
+
+本文件为本地业务资料副本，效力依业务规程认定。

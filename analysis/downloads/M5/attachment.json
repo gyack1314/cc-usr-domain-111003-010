@@ -1,0 +1,14 @@
+{
+  "category": "维修",
+  "fields": {
+    "completed": true,
+    "date": "2026-11-11",
+    "device": "SN03",
+    "new": "PSC0003",
+    "old": "PSA0200",
+    "receipt": "OK-5"
+  },
+  "id": "M5",
+  "revision": 1,
+  "title": "SN03冻结后维修"
+}

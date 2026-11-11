@@ -1,0 +1,17 @@
+{
+  "category": "通告",
+  "fields": {
+    "effective": "2026-11-01",
+    "excluded": [
+      150
+    ],
+    "hi": 200,
+    "inclusive": true,
+    "lo": 100,
+    "prefix": "PSA",
+    "replaces": "R0"
+  },
+  "id": "R1",
+  "revision": 1,
+  "title": "当前召回"
+}

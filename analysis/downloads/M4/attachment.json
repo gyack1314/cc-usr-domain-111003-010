@@ -1,0 +1,14 @@
+{
+  "category": "维修",
+  "fields": {
+    "completed": true,
+    "date": "2026-11-05",
+    "device": "SN08",
+    "new": "PSC0008",
+    "old": "PSA0151",
+    "receipt": null
+  },
+  "id": "M4",
+  "revision": 1,
+  "title": "SN08换件未附签收"
+}

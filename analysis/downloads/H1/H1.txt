@@ -1,0 +1,11 @@
+合成业务文书
+SN05转至西经销
+资料编号：H1
+
+device："SN05"
+from_dealer："D东"
+to_dealer："D西"
+effective："2026-11-08"
+confirmed：true
+
+本文件为本地业务资料副本，效力依业务规程认定。

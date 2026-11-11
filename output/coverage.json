@@ -1,0 +1,231 @@
+{
+  "conservation": {
+    "affected_components_count": 4,
+    "affected_components_installed": [
+      "PSA0101",
+      "PSA0105",
+      "PSA0151",
+      "PSA0200"
+    ],
+    "by_category": {
+      "excluded_with_basis": [
+        "SN01",
+        "SN07"
+      ],
+      "manual_review": [
+        "SN08"
+      ],
+      "needs_recall": [
+        "SN02",
+        "SN03",
+        "SN06"
+      ],
+      "not_affected": [
+        "SN04",
+        "SN05"
+      ]
+    },
+    "category_total": 8,
+    "classified_devices": 8,
+    "notify_devices_count": 3,
+    "registered_devices": 8,
+    "removed_affected_components": [
+      {
+        "component": "PSA0100",
+        "device": "SN01"
+      }
+    ]
+  },
+  "devices": {
+    "SN01": {
+      "classification": "excluded_with_basis",
+      "contact": "合成联系人甲",
+      "dealer_at_freeze": "D东",
+      "evidence": "evidence/SN01.json",
+      "factory_ps": "PSA0100",
+      "in_scope": false,
+      "installed_at_freeze": "PSC0001",
+      "open_issues": [],
+      "registered_dealer": "D东"
+    },
+    "SN02": {
+      "classification": "needs_recall",
+      "contact": "合成联系人乙",
+      "dealer_at_freeze": "D东",
+      "evidence": "evidence/SN02.json",
+      "factory_ps": "PSA0101",
+      "in_scope": true,
+      "installed_at_freeze": "PSA0101",
+      "open_issues": [],
+      "registered_dealer": "D东"
+    },
+    "SN03": {
+      "classification": "needs_recall",
+      "contact": "合成联系人丙",
+      "dealer_at_freeze": "D西",
+      "evidence": "evidence/SN03.json",
+      "factory_ps": "PSA0200",
+      "in_scope": true,
+      "installed_at_freeze": "PSA0200",
+      "open_issues": [],
+      "registered_dealer": "D西"
+    },
+    "SN04": {
+      "classification": "not_affected",
+      "contact": "合成联系人丁",
+      "dealer_at_freeze": "D西",
+      "evidence": "evidence/SN04.json",
+      "factory_ps": "PSB0101",
+      "in_scope": false,
+      "installed_at_freeze": "PSB0101",
+      "open_issues": [],
+      "registered_dealer": "D西"
+    },
+    "SN05": {
+      "classification": "not_affected",
+      "contact": "合成联系人戊",
+      "dealer_at_freeze": "D西",
+      "evidence": "evidence/SN05.json",
+      "factory_ps": "PSA0099",
+      "in_scope": false,
+      "installed_at_freeze": "PSA0099",
+      "open_issues": [],
+      "registered_dealer": "D东"
+    },
+    "SN06": {
+      "classification": "needs_recall",
+      "contact": "合成联系人己",
+      "dealer_at_freeze": "D西",
+      "evidence": "evidence/SN06.json",
+      "factory_ps": "PSA0201",
+      "in_scope": true,
+      "installed_at_freeze": "PSA0105",
+      "open_issues": [],
+      "registered_dealer": "D西"
+    },
+    "SN07": {
+      "classification": "excluded_with_basis",
+      "contact": "合成联系人庚",
+      "dealer_at_freeze": "D东",
+      "evidence": "evidence/SN07.json",
+      "factory_ps": "PSA0150",
+      "in_scope": false,
+      "installed_at_freeze": "PSA0150",
+      "open_issues": [],
+      "registered_dealer": "D东"
+    },
+    "SN08": {
+      "classification": "manual_review",
+      "contact": "合成联系人辛",
+      "dealer_at_freeze": null,
+      "evidence": "evidence/SN08.json",
+      "factory_ps": "PSA0151",
+      "in_scope": true,
+      "installed_at_freeze": "PSA0151",
+      "open_issues": [
+        "换件记录 ['M4'] 声称已完成但无签收凭证，不能视为已消除风险，须人工核实",
+        "持有变更 ['H2', 'H3'] 相互冲突，责任经销商留置待裁定"
+      ],
+      "registered_dealer": "D西"
+    }
+  },
+  "document_checks": {
+    "EX": {
+      "document_fields_equal_json": true
+    },
+    "H1": {
+      "document_fields_equal_json": true
+    },
+    "H2": {
+      "document_fields_equal_json": true
+    },
+    "H3": {
+      "document_fields_equal_json": true
+    },
+    "M1": {
+      "document_fields_equal_json": true
+    },
+    "M2": {
+      "document_fields_equal_json": true
+    },
+    "M3": {
+      "document_fields_equal_json": true
+    },
+    "M4": {
+      "document_fields_equal_json": true
+    },
+    "M5": {
+      "document_fields_equal_json": true
+    },
+    "N0": {
+      "document_fields_equal_json": true
+    },
+    "R0": {
+      "document_fields_equal_json": true
+    },
+    "R1": {
+      "document_fields_equal_json": true
+    }
+  },
+  "freeze": "2026-11-10T12:00:00+08:00",
+  "notice": {
+    "current": "R1@10abba489874685be1a04c7325d5a388088f3966d7b271bd6f8a0dd2401f0c89",
+    "effective": "2026-11-01",
+    "lineage": {
+      "replaces": "R0@4204ae95ba7dab6350c253ea582677d3d9bdedd627ab9e99a294f8597bdb62b4",
+      "rule": "撤回通告仅保留与现行通告的关联，不参与范围扩张",
+      "withdrawn_by": [
+        "N0@418ae0e40c47750f29a53e1aabf75b244182e5de718e4ed45135eb190a8e452c"
+      ]
+    },
+    "scope": {
+      "excluded": [
+        150
+      ],
+      "hi": 200,
+      "inclusive": true,
+      "lo": 100,
+      "prefix": "PSA"
+    }
+  },
+  "record_usage": {
+    "EX": [
+      "SN07 排除依据"
+    ],
+    "H1": [
+      "SN05 持有重建"
+    ],
+    "H2": [
+      "SN08 持有冲突（留置）"
+    ],
+    "H3": [
+      "SN08 持有冲突（留置）"
+    ],
+    "M1": [
+      "SN01 装机组件重建"
+    ],
+    "M2": [
+      "SN06 装机组件重建"
+    ],
+    "M3": [
+      "SN02 维修未完成（申请/计划，不证明已更换）"
+    ],
+    "M4": [
+      "SN08 声称已换但签收凭证缺失"
+    ],
+    "M5": [
+      "SN03 冻结后记录（不改变冻结结论）"
+    ],
+    "N0": [
+      "通告谱系"
+    ],
+    "R0": [
+      "通告谱系"
+    ],
+    "R1": [
+      "通告谱系"
+    ]
+  },
+  "safe_prefix": "PSC",
+  "source_index_sha256": "608f2eabc01af1da8cae097c8bd86bf17e719dbf36fdb7224b77963a40241105"
+}
